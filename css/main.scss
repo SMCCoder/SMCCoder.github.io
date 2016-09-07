@@ -13,8 +13,9 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: lightblue;//#fdfdfd;
 $brand-color:      #2a7ae2;
+$blog-block-bg-color: rgb(77, 182, 196);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -25,6 +26,18 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+.site-header {
+  //position: fixed !important;
+  //padding: 10px;
+}
+.site-header .wrapper {
+  //position: fixed !important;
+}
+.post-list li {
+  background-color: $blog-block-bg-color;
+  padding: 10px;
+}
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
