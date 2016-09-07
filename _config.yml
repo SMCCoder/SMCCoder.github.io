@@ -18,7 +18,7 @@ email: sofie.christie@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog is a personal sharespace for a collection of my projects,
   as well as my ideas.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://smccoder.github.io" # the base hostname & protocol for your site
 github_username:  SMCCoder
 
