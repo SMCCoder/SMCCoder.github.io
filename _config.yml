@@ -7,8 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
   studied multiple languages, including Java, Python, and Javascript.
   Her favorite library is D3.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://smccoder.github.io" # the base hostname & protocol for your site
 github_username:  SMCCoder
+#excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

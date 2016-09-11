@@ -14,6 +14,15 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <p class="post-excerpt">
+          {% if post.content contains '<!--excerpt.start-->' and post.content contains '<!--excerpt.end-->' %}
+          	{{ ((post.content | split:'<!--excerpt.start-->' | last) | split: '<!--excerpt.end-->' | first) | strip_html | truncatewords: 35 }}
+          {% else %}
+          	{{ post.content | strip_html | truncatewords: 35 }}
+          {% endif %}
+        </p>
+
       </li>
     {% endfor %}
   </ul>

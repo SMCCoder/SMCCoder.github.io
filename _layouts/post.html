@@ -12,4 +12,8 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.project %}
+  <iframe src="{{ page.project }}"></iframe>
+  {% endif %}
+
 </div>
