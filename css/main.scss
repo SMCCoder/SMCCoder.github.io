@@ -48,6 +48,11 @@ iframe {
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
+img.profile-pic {
+  border-radius: 100%;
+  width: 5em;
+  height: 5em;
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
