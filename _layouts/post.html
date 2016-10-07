@@ -13,7 +13,9 @@ layout: default
   </article>
 
   {% if page.project %}
-  <iframe src="{{ page.project }}"></iframe>
+  <script>
+    document.getElementById('projectLoc').appendChild(document.createElement("iframe")).setAttribute('src','{{ page.project }}');
+  </script>
   {% endif %}
 
 </div>
