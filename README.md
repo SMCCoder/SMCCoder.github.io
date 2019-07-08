@@ -1,3 +1,3 @@
 # SMCCoder's Blog
 
-This is a developing blog about my contributions on github and other coding projects. 
+This is a developing blog about my contributions on Github and other coding projects. 
