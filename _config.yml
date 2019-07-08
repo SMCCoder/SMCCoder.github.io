@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A student at RIT who is interested in bioinformatics and ecoinformatics, and enjoys learning how to use tools such as Java, R, Python, and ArcGIS.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://smccoder.github.io" # the base hostname & protocol for your site
-github_username:  Sofie Christie
+github_username: SMCCoder
 #excerpt_separator: <!--more-->
 
 # Build settings
