@@ -9,7 +9,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       {% capture year %}{{% if post.date | date: %Y}}{% endcapture %}
-      {if year == "2016"}
+      {% if year == "2016" %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
